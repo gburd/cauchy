@@ -22,5 +22,8 @@ decode.o: decode.c parameters.h decode.h
 compare_msg.o: compare_msg.c parameters.h compare_msg.h
 	$(CC) $(OPTS) -c compare_msg.c
 
+test: driver
+	./driver
+
 clean:
 	/bin/rm -f *.o core
