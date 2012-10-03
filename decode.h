@@ -1,6 +1,6 @@
 /* decode.h  */
 
-/* 
+/*
 
    This is part of source code for FEC codes described in
    ICSI Tech Report TR-95-048
@@ -43,7 +43,8 @@ SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 *********************************************************************/
 
+#include <stdlib.h>
 
-int Decode(UNSIGNED COLBIT, UNSIGNED *BIT, UNSIGNED *ExptoFE,  
-           UNSIGNED *FEtoExp, UNSIGNED *rec_packets, int *pNrec, 
+int Decode(UNSIGNED COLBIT, UNSIGNED *BIT, UNSIGNED *ExptoFE,
+           UNSIGNED *FEtoExp, UNSIGNED *rec_packets, int *pNrec,
            UNSIGNED *rec_message) ;
