@@ -1,5 +1,5 @@
 Cauchy-based Reed-Solomon codes
 
-To understand the theory behind these codes, see the paper titled An XOR-Based Erasure-Resilient Coding Scheme (237K). These erasure codes are based on traditional Reed-Solomon codes, and are implemented in a way that makes them run reasonably fast using a reasonable amount of memory. They were developed in 1993-1994 for use in the PET project at ICSI, and are fast enough to run on real-time on small lengths. What you will find when you click on "download" is a file, which is the "uuencoding" of the "tar" of the directory containing all the needed C source code. You will need to "uudecode" and then extract the directory using "tar xf tarcauchy" to create a directory called "CAUCHYCODE" with all the appropriate files. The uunencoded file is only 144K bytes.
+To understand the theory behind these codes, see the paper titled An XOR-Based Erasure-Resilient Coding Scheme (237K). These erasure codes are based on traditional Reed-Solomon codes, and are implemented in a way that makes them run reasonably fast using a reasonable amount of memory. They were developed in 1993-1994 for use in the PET project at ICSI, and are fast enough to run on real-time on small lengths.
 
 http://www1.icsi.berkeley.edu/~luby/
